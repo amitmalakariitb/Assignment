@@ -1,0 +1,37 @@
+/* signup.css
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    @apply flex items-center justify-center min-h-screen bg-gray-100;
+}
+
+.signup-box {
+    @apply bg-white p-8 rounded shadow-md w-96;
+}
+
+.form-group {
+    @apply mb-4;
+}
+
+label {
+    @apply block text-sm font-semibold text-gray-600;
+}
+
+input {
+    @apply w-full p-2 border border-gray-300 rounded mt-1;
+}
+
+button {
+    @apply w-full bg-blue-500 text-white p-2 rounded;
+}
+
+button:hover {
+    @apply bg-blue-600;
+}
+
+.success-message {
+    @apply text-green-600 font-semibold mb-4;
+} */
